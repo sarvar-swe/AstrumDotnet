@@ -12,3 +12,4 @@ D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\refint\Lesson3.dll
 D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.pdb
 D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.genruntimeconfig.cache
 D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\ref\Lesson3.dll
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.sourcelink.json

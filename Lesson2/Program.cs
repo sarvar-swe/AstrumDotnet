@@ -128,3 +128,4 @@
 
 // Console.WriteLine(str.IndexOf("A"));
 // Console.WriteLine(str.LastIndexOf("A"));
+Console.WriteLine("Astrum");

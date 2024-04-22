@@ -162,17 +162,5 @@
 // };
 
 // Console.WriteLine($"{ball} ball {natija} natija");
+Console.WriteLine("Astrum");
 
-
-// using System.Numerics;
-
-// BigInteger PredictPopulation(BigInteger initialPopulation, int growthRate, int years) 
-// {
-//     BigInteger response = new BigInteger();
-    
-//     response = initialPopulation * (BigInteger)Math.Exp(growthRate * years);
-
-//     return response;
-// }
-
-// Console.WriteLine(PredictPopulation(500000, 3, 10));
