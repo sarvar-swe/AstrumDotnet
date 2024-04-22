@@ -1,0 +1,14 @@
+D:\Projects\AstrumDotnet\Lesson3\bin\Debug\net8.0\Lesson3.exe
+D:\Projects\AstrumDotnet\Lesson3\bin\Debug\net8.0\Lesson3.deps.json
+D:\Projects\AstrumDotnet\Lesson3\bin\Debug\net8.0\Lesson3.runtimeconfig.json
+D:\Projects\AstrumDotnet\Lesson3\bin\Debug\net8.0\Lesson3.dll
+D:\Projects\AstrumDotnet\Lesson3\bin\Debug\net8.0\Lesson3.pdb
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.AssemblyInfoInputs.cache
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.AssemblyInfo.cs
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.csproj.CoreCompileInputs.cache
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.dll
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\refint\Lesson3.dll
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.pdb
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\Lesson3.genruntimeconfig.cache
+D:\Projects\AstrumDotnet\Lesson3\obj\Debug\net8.0\ref\Lesson3.dll
