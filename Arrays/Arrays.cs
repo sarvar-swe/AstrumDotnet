@@ -9,7 +9,25 @@ public partial class Solution
     /// <returns>Maximum element in arr.</returns>
     public int FindMaxElement(int[][] arr)
     {
-        throw new NotImplementedException();
+        int max = int.MinValue;
+
+        // for(int i = 0; i < arr.Length; i++)
+        // {
+        //     for(int j = 0; j < arr[i].Length; j++)
+        //     {
+        //         if(max < arr[i][j])
+        //         {
+        //             max = arr[i][j];
+        //         }
+        //     }
+        // }
+
+        for(int i = 0; i < arr.Length; i++)
+        {
+            max = Math.Max(max, arr[i].Max());
+        }
+
+        return max;
     }
 
     /// <summary>
@@ -19,7 +37,27 @@ public partial class Solution
     /// <returns></returns>
     public int[][] CalculateTranspose(int[][] matrix)
     {
-        throw new NotImplementedException ();
+        if(matrix.Length == 0)
+        {
+            return matrix;
+        }
+
+        int[][] transpose = new int[matrix[0].Length][];
+
+        for(int i = 0; i < matrix[0].Length; i++)
+        {
+            transpose[i] = new int[matrix.Length];
+        }
+
+        for(int i = 0; i < matrix[0].Length; i++)
+        {
+            for(int j = 0; j < matrix.Length; j++)
+            {
+                transpose[i][j] = matrix[j][i];
+            }
+        }
+
+        return transpose;
     }
 
     /// <summary>
@@ -28,7 +66,10 @@ public partial class Solution
     /// <param name="arr"></param>
     public void SortJaggedArray(int[][] arr)
     {
-        throw new NotImplementedException();
+        for(int i = 0; i < arr.Length; i++)
+        {
+            Array.Sort(arr[i]);
+        }
     }
 
     /// <summary>
@@ -38,7 +79,12 @@ public partial class Solution
     /// <returns></returns>
     public int CalculateSumOfElements(int[][] arr)
     {
-        throw new NotImplementedException();
+        int sum = 0;
+
+        for(int i = 0; i < arr.Length; i++)
+            sum += arr[i].Sum();
+        
+        return sum;
     }
 
 
