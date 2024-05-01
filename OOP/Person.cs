@@ -14,8 +14,8 @@ public class Person
         Age = age;        
     }
 
-    public void DisplayData()
+    public virtual void DisplayData()
     {
-        Console.WriteLine($"Name: {Name}, Age: {Age}");
+        Console.WriteLine($"Person -> Name: {Name}, Age: {Age}");
     }   
 }

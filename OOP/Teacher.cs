@@ -6,8 +6,13 @@ public class Teacher : Person
         Subject = subject;
     }
 
-    public new void DisplayData()
+    public override void DisplayData()
     {
-         Console.WriteLine($"Name: {Name}, Age: {Age}, Subject: {Subject}");
+        Console.WriteLine($"Teacher -> Name: {Name}, Age: {Age}, Subject: {Subject}");
+    }
+
+    public override string ToString()
+    {
+        return $"Name: {Name}, Age: {Age}, Subject: {Subject}";
     }
 }
